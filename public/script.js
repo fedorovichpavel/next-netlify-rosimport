@@ -46,7 +46,10 @@ $(".scroll").on("click", function (e) {
     );
 });
 
-$(document).ready(function () {
+$(".carousel").carousel({
+  interval: 4000,
+});
+window.onload = () => {
   $("#11").owlCarousel({
     loop: true, //Зацикливаем слайдер
     autoplay: true, //Автозапуск слайдера
@@ -54,15 +57,9 @@ $(document).ready(function () {
     smartSpeed: 1000, //Время движения слайда
     autoplayTimeout: 2000, //Время смены слайда
   });
-});
 
-$(".carousel").carousel({
-  interval: 4000,
-});
-
-$(document).ready(function () {
   $('[data-toggle="tooltip"]').tooltip();
-});
+};
 
 function radioClick() {
   var mlength = "cm";
