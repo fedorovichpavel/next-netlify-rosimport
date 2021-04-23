@@ -375,7 +375,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <script src="assets/plugins/respond.min.js"></script>
+      <script src="./assets/plugins/respond.min.js"></script>
 
       <noscript>
         <div>
@@ -387,48 +387,48 @@ export const Footer = () => {
         </div>
       </noscript>
 
-      <script src="preloader/js/jquery.min.js"></script>
-      <script src="preloader/js/core.js"></script>
-      <script src="preloader/js/init.js"></script>
+      <script src="./preloader/js/jquery.min.js"></script>
+      <script src="./preloader/js/core.js"></script>
+      <script src="./preloader/js/init.js"></script>
 
       <script
-        src="assets/plugins/jquery.min.js"
+        src="./assets/plugins/jquery.min.js"
         type="text/javascript"
       ></script>
       <script
-        src="assets/plugins/jquery-migrate.min.js"
+        src="./assets/plugins/jquery-migrate.min.js"
         type="text/javascript"
       ></script>
       <script
-        src="assets/plugins/bootstrap/js/bootstrap.min.js"
+        src="./assets/plugins/bootstrap/js/bootstrap.min.js"
         type="text/javascript"
       ></script>
       <script
-        src="assets/corporate/scripts/back-to-top.js"
+        src="./assets/corporate/scripts/back-to-top.js"
         type="text/javascript"
       ></script>
 
       <script
-        src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"
+        src="./assets/plugins/fancybox/source/jquery.fancybox.pack.js"
         type="text/javascript"
       ></script>
       <script
-        src="assets/plugins/owl.carousel/owl.carousel.min.js"
+        src="./assets/plugins/owl.carousel/owl.carousel.min.js"
         type="text/javascript"
       ></script>
       <script
-        src="assets/corporate/scripts/layout.js"
+        src="./assets/corporate/scripts/layout.js"
         type="text/javascript"
       ></script>
       <script
-        src="assets/pages/scripts/bs-carousel.js"
+        src="./assets/pages/scripts/bs-carousel.js"
         type="text/javascript"
       ></script>
-      <script src="search/search.js"></script>
+      <script src="./search/search.js"></script>
 
-      <script src="fix_sidebar/js/jquery-sticklr-1.4.js"></script>
+      <script src="./fix_sidebar/js/jquery-sticklr-1.4.js"></script>
 
-      <script src="script.js"></script>
+      <script src="./script.js"></script>
     </>
   );
 };

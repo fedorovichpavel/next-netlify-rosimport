@@ -295,7 +295,7 @@ export const Header = ({ navLight }) => {
                 <div className="search-box">
                   <form
                     id="search-form"
-                    action="search.php"
+                    action="./search.php"
                     method="GET"
                     acceptCharset="utf-8"
                   >
