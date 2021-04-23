@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* @ribbon
+-------------------------------------- */
+.smart-pricing .ribbon{
+	width:68px;
+	right:0;
+	top:0;
+}
+.smart-pricing .ribbon .ribbon-inner{
+	left:-2px;
+	top:-26px;
+}
+.smart-pricing .ribbon-large{ 
+	width:115px; 
+	height:118px; 	
+	right: 0px;
+	top: -1px;  
+}
+
+.smart-pricing .ribbon-inner{
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";
+}
+
+.smart-pricing .ribbon-large .ribbon-inner{
+	width:180px;
+	left:-5px;
+	top:-26px;
+}
+

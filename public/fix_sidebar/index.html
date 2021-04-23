@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Sticklr.js Basic Demo</title>
+
+<link href="css/jquery-sticklr-1.4-dark-color.css" rel="stylesheet" type="text/css">
+<style>
+html { height:300vh ;}
+h1 { margin:150px auto; text-align:center;}
+</style>
+</head>
+
+<body>
+<h1>jQuery Sticklr.js Basic Demo</h1>
+
+<ul id="example" class="sticklr">
+    <li>
+      <a href="#" class="icon-addthis" title="This is a floated icon"></a>
+        <ul>
+            <li class="sticklr-title">
+                <a href="#">This is a title</a>
+            </li>
+            <li>
+                <a href="http://www.google.com" class="icon-google">This is a link</a>
+            </li>
+            <li>
+                <a href="http://www.facebook.com" class="icon-facebook">Another link</a>
+            </li>
+             <li>
+                <a href="http://www.twitter.com" class="icon-twitter">Twiter</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-sticklr-1.4.js"></script>
+<script>
+$(document).ready(function(){
+        $('#example').sticklr();
+    });
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

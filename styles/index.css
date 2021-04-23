@@ -1,0 +1,14 @@
+@import "./assets/plugins/font-awesome/css/font-awesome.css";
+@import "./assets/plugins/bootstrap/css/bootstrap.min.css";
+@import "./assets/pages/css/animate.css";
+@import "./assets/plugins/fancybox/source/jquery.fancybox.css";
+@import "./assets/plugins/owl.carousel/assets/owl.carousel.css";
+@import "./assets/pages/css/components.css";
+@import "./assets/pages/css/slider.css";
+@import "./assets/corporate/css/style.css";
+@import "./assets/corporate/css/style-responsive.css";
+@import "./assets/corporate/css/themes/red.css";
+@import "./assets/corporate/css/custom.css";
+@import "./assets/corporate/css/custom-bootstrap-margin-padding.css";
+@import "./fix_sidebar/css/jquery-sticklr-1.4-dark-color.css";
+@import "./assets/pricing/css/smart-pricing.css";
